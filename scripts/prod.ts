@@ -246,7 +246,11 @@ const challengeTemplates = [
 ];
 
 // Function to create challenge options based on templates
-const createChallengeOptions = (challenge, translations, langCode, challengeId) => {
+const createChallengeOptions = (
+  challenge: any,
+  translations: any,
+  langCode: string,
+  challengeId: any) => {
   const options = [];
   
   // For sentences
